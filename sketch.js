@@ -27,5 +27,3 @@ class SeaLion extends Animal {
     return `${this.name} balances a ball on its nose while striking a pose worthy of a circus superstar. `;
   }
 }
-
-module.exports = SeaLion;
