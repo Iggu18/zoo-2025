@@ -5,20 +5,23 @@ class SeaLion extends Animal {
     this.name="Mr.waggy bloog"
     this.species = "Sea Lion";
     this.sound = "Ow ow ow (sea dog energy)";
-    this.canFly = false;
     this.canSwim= true
+    this.favfood="seafood"
 
   }
 
   makeSound() {
-    return `${this.name} says: ${this.sound}`;
+    return ${this.name} says: ${this.sound}`;
   }
-
+  favdish(){
+    return ${this.name},favourite cusine is:${this.favfood};
+  
+ 
   move() {
     const moves = [
-      `${this.name} flops across the beach like a giant wet noodle. `,
-      `${this.name} zooms underwater like a chunky torpedo with whiskers. `,
-      `${this.name} wiggles dramatically, demanding attention from literally everyone around.`
+      ${this.name} flops across the beach like a giant wet noodle. `,
+      ${this.name} zooms underwater like a chunky torpedo with whiskers. `,
+      ${this.name} wiggles dramatically, demanding attention from literally everyone around.`
     ];
     return moves[Math.floor(Math.random() * moves.length)];
   }
